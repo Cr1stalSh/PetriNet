@@ -7,7 +7,7 @@ import random
 class Place:
     def __init__(self, name, tokens=0):
         self.name = name
-        self.tokens = tokens
+        self.tokens = tokens #ня)
 
 class Transition:
     def __init__(self, name, pre, post):
